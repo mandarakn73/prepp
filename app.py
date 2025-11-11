@@ -7,7 +7,7 @@ from utils import offline_summary
 
 st.set_page_config(page_title="PrepPredict (Extra Trees)", layout="wide")
 
-DATA_FILE = "CET-CUTOFF2025.xlsx"
+DATA_FILE = "CET-CUTOFF2025.csv"
 MODEL_FILE = "models/ext_model.joblib"
 ENC_FILE = "models/label_encoder.joblib"
 
@@ -79,4 +79,5 @@ else:
         st.markdown("---")
 
 st.caption("Model-based prediction uses a simple feature proxy (rank -> cutoff features). Improve by engineering features and re-training.")
+
 
