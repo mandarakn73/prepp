@@ -1,5 +1,7 @@
-pandas
-scikit-learn
-joblib
-streamlit
-geopy
+pandas==2.1.4
+scikit-learn==1.3.2
+joblib==1.3.2
+streamlit==1.29.0
+openpyxl==3.1.2
+plotly==5.18.0
+numpy==1.26.2
